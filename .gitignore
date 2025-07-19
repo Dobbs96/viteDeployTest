@@ -1,0 +1,82 @@
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Build Output ---
+dist/
+build/
+.vite/
+.preview/
+
+# --- TypeScript ---
+*.tsbuildinfo
+
+# --- Vite ---
+.vite/
+
+# --- Logs ---
+logs/
+*.log
+*.log.*
+
+# --- Env Variables ---
+.env
+.env.*.local
+
+# --- OS System Files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+Icon?
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# --- Optional Caches ---
+.cache/
+.cache-loader/
+tmp/
+temp/
+*.tmp
+
+# --- Coverage ---
+coverage/
+
+# --- Lint & Format Tools ---
+.eslintcache
+.prettiercache
+
+# --- Test Output ---
+*.test-results
+test-results/
+jest-test-results.json
+
+# --- Storybook ---
+.out/
+storybook-static/
+
+# --- Misc ---
+*.local
+*.bak
+*.swp
+*.swo
+*.orig
+
+# --- Git-specific ---
+*.rej
+*.patch
+*.orig
+
+# --- Optional lockfiles (uncomment if you don't want to commit lockfiles) ---
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
